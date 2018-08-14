@@ -1,0 +1,17 @@
+spring:
+  devtools:
+    restart:
+      enabled: true
+      exclude: WEB-INF/**
+
+  thymeleaf: 
+    cache: false
+    suffix: .html
+    prefix: classpath:/templates/
+    encoding: utf-8
+    servlet:
+      content-type: text/html
+    mode: HTML
+
+server:
+  port: 8800
