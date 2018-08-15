@@ -1,4 +1,4 @@
-package com.ott.installation;
+package com.ott.installation.controller;
 
 import com.ott.installation.domain.EnviromentStatus;
 import com.ott.installation.domain.HostEnviroment;
